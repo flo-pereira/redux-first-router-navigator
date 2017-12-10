@@ -1,0 +1,32 @@
+{
+  "name": "redux-first-router-navigator",
+  "version": "0.0.2",
+  "description": "Redux first router navigator component",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "export BABEL_ENV=production && babel src --out-dir lib/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redux",
+    "redux-first-router",
+    "redux-first-router-navigator",
+    "navigator"
+  ],
+  "author": "Florian Pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react-app": "^3.1.0",
+    "babel-runtime": "6.26.0"
+  },
+  "peerDependencies": {
+    "redux": "^3.7.2",
+    "redux-first-router": "^0.0.16-next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flo-pereira/redux-first-router-navigator"
+  }
+}
