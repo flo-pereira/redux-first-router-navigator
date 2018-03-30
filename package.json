@@ -1,6 +1,6 @@
 {
   "name": "redux-first-router-navigator",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Redux first router navigator component",
   "main": "lib/index.js",
   "scripts": {
