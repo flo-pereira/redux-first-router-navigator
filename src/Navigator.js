@@ -22,13 +22,13 @@ type State = {
 };
 
 export default class extends React.PureComponent<Props, State> {
+  static getDerivedStateFromProps = () => ({ hasError: false });
+
   state = {
     hasError: false,
     error: undefined,
     info: undefined,
   };
-
-  componentWillReceiveProps = () => this.setState({ hasError: false });
 
   componentDidCatch = (error: ErrorType, info: Info) => this.setState({ hasError: true, error, info });
 
